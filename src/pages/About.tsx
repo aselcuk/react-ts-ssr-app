@@ -1,6 +1,6 @@
 import React from 'react';
-import './about.scss';
 import AirplaneImg from '../public/assets/images/airplane.png'
+import '@pages/about.scss';
 
 export default function About() {
   return (

@@ -1,6 +1,7 @@
 const path = require("path");
 const { HotModuleReplacementPlugin } = require("webpack");
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 module.exports = {
   output: {
@@ -29,6 +30,7 @@ module.exports = {
   },
   resolve: {
     extensions: [".tsx", ".ts", ".js", ".css", ".scss"],
+    plugins: [new TsconfigPathsPlugin()],
   },
   plugins: [
     new MiniCssExtractPlugin(),
