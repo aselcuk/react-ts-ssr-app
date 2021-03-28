@@ -4,6 +4,8 @@
     "paths": {
       "@pages": ["./pages"],
       "@pages/*": ["./pages/*"],
+      "@components": ["./components"],
+      "@components/*": ["./components/*"],
     },
     "lib": [
       "dom",

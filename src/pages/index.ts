@@ -1,2 +1,2 @@
-export { default as Home } from '@pages/Home';
-export { default as About } from '@pages/About';
+export { default as Home } from '@pages/home/Home';
+export { default as PageNotFound } from '@pages/page-not-found/PageNotFound';

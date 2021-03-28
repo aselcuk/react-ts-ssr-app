@@ -4,7 +4,8 @@
   "description": "React & TypeScript based project setup app",
   "scripts": {
     "start": "webpack serve --config webpack.config.js --env env=dev",
-    "build": "webpack --config webpack.config.js --env env=prod && node build/server.js"
+    "build": "webpack --config webpack.config.js --env env=prod && node build/server.js",
+    "db": "json-server -p 4000 --watch db/db.json"
   },
   "author": "Ali SELÇUK",
   "license": "ISC",

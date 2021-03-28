@@ -1,0 +1,648 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "match": "Real Madrid - Juventus",
+      "leagueId": 1,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 2.00
+            },
+            {
+              "result": "0",
+              "rate": 3.00
+            },
+            {
+              "result": "2",
+              "rate": 1.90
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 2.45
+            },
+            {
+              "result": "ust",
+              "rate": 1.20
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.12
+            },
+            {
+              "result": "1-2",
+              "rate": 1.02
+            },
+            {
+              "result": "2-X",
+              "rate": 1.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "match": "M.City - Barcelona",
+      "leagueId": 1,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.75
+            },
+            {
+              "result": "0",
+              "rate": 3.00
+            },
+            {
+              "result": "2",
+              "rate": 2.10
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.85
+            },
+            {
+              "result": "ust",
+              "rate": 1.30
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.15
+            },
+            {
+              "result": "1-2",
+              "rate": 1.05
+            },
+            {
+              "result": "2-X",
+              "rate": 1.20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "match": "PSG - Liverpool",
+      "leagueId": 1,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.45
+            },
+            {
+              "result": "0",
+              "rate": 3.10
+            },
+            {
+              "result": "2",
+              "rate": 1.90
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.50
+            },
+            {
+              "result": "ust",
+              "rate": 1.30
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.02
+            },
+            {
+              "result": "1-2",
+              "rate": 1.10
+            },
+            {
+              "result": "2-X",
+              "rate": 1.20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "match": "Bayern Munih - İnter",
+      "leagueId": 1,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.35
+            },
+            {
+              "result": "0",
+              "rate": 3.30
+            },
+            {
+              "result": "2",
+              "rate": 2.70
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.60
+            },
+            {
+              "result": "ust",
+              "rate": 1.20
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.05
+            },
+            {
+              "result": "1-2",
+              "rate": 1.10
+            },
+            {
+              "result": "2-X",
+              "rate": 1.30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "match": "Galatasaray - Beşiktaş",
+      "leagueId": 2,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 1,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.60
+            },
+            {
+              "result": "0",
+              "rate": 3.10
+            },
+            {
+              "result": "2",
+              "rate": 2.00
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 1,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.70
+            },
+            {
+              "result": "ust",
+              "rate": 1.30
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 1,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.05
+            },
+            {
+              "result": "1-2",
+              "rate": 1.10
+            },
+            {
+              "result": "2-X",
+              "rate": 1.20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "match": "Fenerbahçe - Trabzonspor",
+      "leagueId": 2,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 2,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.60
+            },
+            {
+              "result": "0",
+              "rate": 3.10
+            },
+            {
+              "result": "2",
+              "rate": 2.40
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 2,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.50
+            },
+            {
+              "result": "ust",
+              "rate": 1.40
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 2,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.05
+            },
+            {
+              "result": "1-2",
+              "rate": 1.10
+            },
+            {
+              "result": "2-X",
+              "rate": 1.25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "match": "Göztepe - Başakşehir",
+      "leagueId": 2,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 2,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.95
+            },
+            {
+              "result": "0",
+              "rate": 3.10
+            },
+            {
+              "result": "2",
+              "rate": 2.15
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 2,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.45
+            },
+            {
+              "result": "ust",
+              "rate": 1.60
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 2,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.07
+            },
+            {
+              "result": "1-2",
+              "rate": 1.10
+            },
+            {
+              "result": "2-X",
+              "rate": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "match": "Antalyaspor - Denizlispor",
+      "leagueId": 2,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.55
+            },
+            {
+              "result": "0",
+              "rate": 3.10
+            },
+            {
+              "result": "2",
+              "rate": 2.55
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.45
+            },
+            {
+              "result": "ust",
+              "rate": 1.60
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.02
+            },
+            {
+              "result": "1-2",
+              "rate": 1.20
+            },
+            {
+              "result": "2-X",
+              "rate": 1.30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "match": "B. Dortmund - Frankfurt",
+      "leagueId": 3,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.25
+            },
+            {
+              "result": "0",
+              "rate": 3.00
+            },
+            {
+              "result": "2",
+              "rate": 2.20
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.90
+            },
+            {
+              "result": "ust",
+              "rate": 1.25
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": null
+            },
+            {
+              "result": "1-2",
+              "rate": 1.05
+            },
+            {
+              "result": "2-X",
+              "rate": 1.15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "match": "B. Mönchengladbach - B. Leverkusen",
+      "leagueId": 3,
+      "bets": [
+        {
+          "id": 1,
+          "type": "ms",
+          "desc": "Maç Sonucu",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1",
+              "rate": 1.70
+            },
+            {
+              "result": "0",
+              "rate": 3.30
+            },
+            {
+              "result": "2",
+              "rate": 1.90
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "au",
+          "desc": "2,5 Alt/Üst",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "alt",
+              "rate": 1.50
+            },
+            {
+              "result": "ust",
+              "rate": 1.45
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "cs",
+          "desc": "Çifte Şans",
+          "mbs": 3,
+          "possibilities": [
+            {
+              "result": "1-X",
+              "rate": 1.05
+            },
+            {
+              "result": "1-2",
+              "rate": 1.05
+            },
+            {
+              "result": "2-X",
+              "rate": 1.10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "leagues": [
+    {
+      "id": 1,
+      "title": "UEFA ŞAMPİYONLAR LİGİ"
+    },
+    {
+      "id": 2,
+      "title": "SÜPER LİG"
+    },
+    {
+      "id": 3,
+      "title": "BUNDESLİGA"
+    }
+  ]
+}
