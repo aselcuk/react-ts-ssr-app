@@ -3,6 +3,9 @@ const { HotModuleReplacementPlugin } = require("webpack");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
+  output: {
+    assetModuleFilename: 'images/[hash][ext][query]'
+  },
   module: {
     rules: [
       {

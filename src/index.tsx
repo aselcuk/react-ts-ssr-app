@@ -3,7 +3,9 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.hydrate(
+const renderMethod = module.hot ? ReactDOM.render : ReactDOM.hydrate;
+
+renderMethod(
   <React.StrictMode>
     <BrowserRouter>
       <App />
