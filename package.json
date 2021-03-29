@@ -1,14 +1,20 @@
 {
   "name": "react-ts-setup-app",
+  "author": "Ali SELÇUK",
   "version": "1.0.0",
   "description": "React & TypeScript based project setup app",
   "scripts": {
     "start": "webpack serve --config webpack.config.js --env env=dev",
     "build": "webpack --config webpack.config.js --env env=prod && node build/server.js",
-    "db": "json-server -p 4000 --watch db/db.json"
+    "db": "json-server -p 4000 --watch db/db.json",
+    "lint": "eslint ./src/**/*.{ts,tsx}",
+    "lint:fix": "eslint --fix ./src/**/*.{ts,tsx}",
+    "lint:staged": "lint-staged",
+    "svgr": "svgr ./src/public/assets/icons -d ./src/components/icons --replace-attr-values \"#000=currentColor,#fff=currentColor\" --icon --memo --ext tsx && npm run lint:fix"
   },
-  "author": "Ali SELÇUK",
-  "license": "ISC",
+  "lint-staged": {
+    "*.{ts,tsx}": "npm run lint"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -26,6 +32,8 @@
     "@babel/preset-typescript": "^7.13.0",
     "@babel/runtime": "^7.13.10",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@svgr/babel-plugin-remove-jsx-attribute": "^5.4.0",
+    "@svgr/cli": "^5.5.0",
     "@types/node-sass": "^4.11.1",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
@@ -33,10 +41,16 @@
     "@types/webpack": "^5.0.0",
     "@types/webpack-dev-server": "^3.11.3",
     "@types/webpack-env": "^1.16.0",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.2.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^5.3.1",
+    "lint-staged": "^10.5.4",
     "mini-css-extract-plugin": "^1.4.0",
     "node-sass": "^5.0.0",
     "react-refresh": "^0.9.0",
@@ -50,5 +64,6 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3",
     "webpack-node-externals": "^2.5.2"
-  }
+  },
+  "license": "ISC"
 }

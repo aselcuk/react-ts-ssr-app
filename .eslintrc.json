@@ -1,0 +1,81 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks"
+  ],
+  "ignorePatterns": [
+    "__tests__/*",
+    "jest.config.js",
+    "babel.config.js",
+    "server",
+    "webpack*"
+  ],
+  "rules": {
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-console": "error",
+    "no-alert": "error",
+    "no-var": "error",
+    "space-before-blocks": "error",
+    "no-shadow": "error",
+    "arrow-spacing": "error",
+    "key-spacing": [
+      "error",
+      {
+        "beforeColon": false
+      }
+    ],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": false,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": [
+          "all",
+          "single",
+          "multiple",
+          "none"
+        ],
+        "allowSeparatedGroups": true
+      }
+    ],
+    "sort-keys": "error",
+    "newline-before-return": "error",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
+  }
+}

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { routes, IRoute } from './routes';
-import { Route, Switch } from 'react-router-dom';
 import { PageNotFound } from '@pages';
+import { IRoute, routes } from './routes';
+import { Route, Switch } from 'react-router-dom';
 
 export default function App() {
   return (
@@ -20,5 +20,5 @@ export default function App() {
         
       </Switch>
     </div>
-  )
+  );
 }

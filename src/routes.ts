@@ -1,4 +1,4 @@
-import { Home } from "@pages"
+import { Home } from '@pages';
 
 
 export type IRoute = {
@@ -9,8 +9,8 @@ export type IRoute = {
 
 export const routes: IRoute[] = [
   {
-    path: '/',
-    exact: true,
     component: Home,
+    exact: true,
+    path: '/',
   }
-]
+];

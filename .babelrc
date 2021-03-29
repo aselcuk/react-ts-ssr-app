@@ -6,6 +6,17 @@
   ],
   "plugins": [
     "@babel/plugin-proposal-object-rest-spread",
-    "@babel/plugin-transform-runtime"
+    "@babel/plugin-transform-runtime",
+    [
+      "@svgr/babel-plugin-remove-jsx-attribute",
+      {
+        "elements": [
+          "path"
+        ],
+        "attributes": [
+          "strokeWidth"
+        ]
+      }
+    ]
   ]
 }

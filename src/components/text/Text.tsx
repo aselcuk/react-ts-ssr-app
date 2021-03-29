@@ -3,6 +3,6 @@ import '@components/text/text.scss';
 
 export default function Text({ children, ...props }) {
   return (
-    <span className="text-container" {...props}>{children}</span>
-  )
+    <span className='text-container' {...props}>{children}</span>
+  );
 }
