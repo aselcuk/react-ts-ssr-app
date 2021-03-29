@@ -27,3 +27,19 @@ npm install -g json-server
 ```
 
 Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
+
+
+### `npm run lint`
+
+Shows eslint errors.
+
+
+### `npm run lint:fix`
+
+Corrects any errors that it can fix.
+
+
+### `npm run svgr`
+
+Makes icons under `src/public/assets/icons` into react components.  
+If a new icon is added, this command should be run.
