@@ -2,6 +2,8 @@ import * as React from 'react';
 import { PageNotFound } from '@pages';
 import { IRoute, routes } from './routes';
 import { Route, Switch } from 'react-router-dom';
+import 'normalize.css';
+import './index.scss';
 
 export default function App() {
   return (

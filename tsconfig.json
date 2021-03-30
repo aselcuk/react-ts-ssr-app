@@ -6,6 +6,7 @@
       "@pages/*": ["./pages/*"],
       "@components": ["./components"],
       "@components/*": ["./components/*"],
+      "@core": ["./core"],
     },
     "lib": [
       "dom",

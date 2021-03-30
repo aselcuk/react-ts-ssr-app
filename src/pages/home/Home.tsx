@@ -1,10 +1,20 @@
+import { Button } from '@components';
 import React from 'react';
-import { Text } from '@components';
 
 export default function Home() {
   return (
-    <Text>
-      Home Page
-    </Text>
+    <div style={{ alignItems: 'center', display: 'flex', justifyContent: 'center', padding: '50px' }}>
+      <Button
+        primary
+      >
+        GİRİŞ
+    </Button>
+
+      <Button
+        secondary
+      >
+        ÜYE OL
+    </Button>
+    </div>
   );
 }
